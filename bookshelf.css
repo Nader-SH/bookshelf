@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    border: 3px solid #a2f3ec;
+    background-color: #3ff5e6;
+    border-radius: 9px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+  }
+  .book-div{
+    margin: auto;
+    width: 80%;
+    border: 5px solid #a2f3ec;
+    padding: 10px;
+    margin: 20px; 
+    border-radius: 15px;
+    background-color: #cff1ef;
+    
+  }
+  .bookNum{
+color: rgb(29, 28, 28);
+
+
+  }
+
+.book-author{
+  color:rgb(77, 72, 72);
+}
+.book-work{
+color:rgb(109, 107, 107);
+}
+
+.book-img{
+  display: block;
+  border-radius: 8px;
+  height: 350px;
+  width: 300px !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-color: #7abdb7;
+
+}
+
