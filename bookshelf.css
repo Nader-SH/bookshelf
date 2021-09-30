@@ -1,3 +1,12 @@
+body{
+  display: grid;
+
+   transform: scale(95%);
+   transform-origin: 0 0;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
 .container {
     display: grid;
     border: 3px solid #a2f3ec;
@@ -6,6 +15,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 26px;
     font-family: Arial, sans-serif;
+
   }
   .book-div{
     margin: auto;
