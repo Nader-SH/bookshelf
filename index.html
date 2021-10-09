@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="bookshelf.css"/>
+    <link rel="stylesheet" href="probook.css" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id='container' class="container"></div>
 
-    <script src="bookshelf.js"></script>
-  </body>
+    <div>
+        <form onsubmit="return guardarNumeros()">
+            <p class="addItems">Add Items</p>
+            <input type="title" id="title" class="title" placeholder="Book Number">
+            <input type="author" id="author" class="author" placeholder="Author">
+            <input type="work" id="work" class="work" placeholder="Work">
+            <input type="url" id="image" class="image" placeholder="Image">
+            <input type="submit" value="Submit" class="submit" placeholder="Submit">
+        </form>
+    </div>
+    <script src="probook.js"></script>
+</body>
+
 </html>
